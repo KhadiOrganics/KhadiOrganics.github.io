@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto; 
+    margin-top: 3%;/* Centers the image horizontally */
+    max-width: 3cm; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Allows the image to scale proportionally */
+    border-radius: 50%; /* Applies a rounded border to create a circular shape */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #66bb6a;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.products {
+    padding: 40px 0;
+}
+
+.products h2 {
+    text-align: center;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #66bb6a;
+}
+.name{
+    font-weight: bold;
+    font-size:large ;
+    color: #024005;
+}
+
+footer {
+    background-color: #eeeeee;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
